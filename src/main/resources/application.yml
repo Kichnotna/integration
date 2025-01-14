@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: integration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flyway
+    username: user
+    password: password
+  flyway:
+    enabled: true
+  rabbitmq:
+    password: guest
+    host: localhost
+    username: guest
+    port: 5672
